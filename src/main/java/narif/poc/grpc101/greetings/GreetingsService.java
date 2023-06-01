@@ -19,7 +19,7 @@ public class GreetingsService extends GreeterRPCGrpc.GreeterRPCImplBase {
 
     @Override
     public void greetUserStream(GreetingRequest greetingRequest, StreamObserver<GreetingResponse> greetingResponseStreamObserver){
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 100; i++) {
             String message = "Hello Mr. "+greetingRequest.getUsername()+". This is a greeting message. Count: "+(i+1);
             final var build = GreetingResponse.newBuilder().setMessage(message).build();
             greetingResponseStreamObserver.onNext(build);
