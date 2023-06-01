@@ -99,7 +99,7 @@ public class GreetingsClient {
             greetingsClient.greetAllUsersAtOnce(List.of("Najeeb", "Arif",
                     "John", "Doe", "Jack", "Jill",
                     "John", "Doe", "Jack", "Jill",
-                    "John", "Doe", "Jack", "Jill", 
+                    "John", "Doe", "Jack", "Jill",
                     "John", "Doe", "Jack", "Jill",
                     "John", "Doe", "Jack", "Jill",
                     "John", "Doe", "Jack", "Jill",
